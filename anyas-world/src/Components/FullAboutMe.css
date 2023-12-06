@@ -1,0 +1,50 @@
+.about-me-container{
+    position: sticky;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+.about-block{
+    max-width: 50rem;
+    min-width: 30vw;
+    padding: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-header{
+    font-size: 3rem;
+    font-family: 'Margesh';
+    color: #006970;
+    margin: 0.25em 0rem;
+    opacity: 0;
+    animation: OpacityAnim 2s ease-in 1 0.5s forwards;
+}
+
+.welcome-body{
+    font-size: 1.5rem;
+    font-family: 'Palanquin';
+    font-weight: light;
+    color: #728485;
+    line-height: 2rem;
+    max-width: 75%;
+    margin: 0;
+    opacity: 0;
+    animation: OpacityAnim 1s ease-in 1 1.5s forwards;
+}
+
+@keyframes OpacityAnim {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

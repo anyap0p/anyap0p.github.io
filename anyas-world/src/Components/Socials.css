@@ -1,0 +1,38 @@
+.right-social-container{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    bottom: 0;
+    justify-content: left;
+    height: 6vh;
+    width: 100vw;
+    z-index: 4;
+    padding: 5px;
+}
+
+.icon-container{
+    box-sizing: border-box;
+    position: relative;
+    width: 6vh;
+    height: 6vh;
+    padding: 5px;
+}
+
+.social-icon{
+    overflow: hidden;
+    object-position: center center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    animation: roll-in 5s 3s backwards;
+}
+
+@keyframes roll-in {
+    from {
+        transform: translateX(-400%) rotate(var(--w, -1080deg));
+    }
+    to {
+        transform: translateX(0) rotate(0deg);
+    }
+}
