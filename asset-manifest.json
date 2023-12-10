@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.252f30d0.css",
-    "main.js": "/static/js/main.0b627d45.js",
+    "main.css": "/static/css/main.4350c467.css",
+    "main.js": "/static/js/main.4182477d.js",
     "static/js/787.18c92263.chunk.js": "/static/js/787.18c92263.chunk.js",
+    "static/media/soil_survey_gif.gif": "/static/media/soil_survey_gif.76884b9a6b03b686490f.gif",
     "static/media/connect4_preview.gif": "/static/media/connect4_preview.e32dc79e51e05deee2db.gif",
     "static/media/tune_me_in.gif": "/static/media/tune_me_in.5865e5026004ced9044c.gif",
     "static/media/Diffpure_Preview.gif": "/static/media/Diffpure_Preview.e1202abf07c398f532f0.gif",
     "static/media/diffpure_attack_preview.png": "/static/media/diffpure_attack_preview.4aaf463fed10f226316c.png",
     "static/media/hawkeye_preview.gif": "/static/media/hawkeye_preview.48d5742cee694746de79.gif",
     "static/media/connect4_preview.png": "/static/media/connect4_preview.e6b12c60fc1f9ca5c013.png",
+    "static/media/Soil Survey Tool Preview.png": "/static/media/Soil Survey Tool Preview.4d06cf214a829426a8e8.png",
     "static/media/Palanquin-Medium.ttf": "/static/media/Palanquin-Medium.a2ec74cf595cbd7fbb3f.ttf",
     "static/media/Palanquin-Bold.ttf": "/static/media/Palanquin-Bold.acefae9a5b305d2639ed.ttf",
     "static/media/Palanquin-Regular.ttf": "/static/media/Palanquin-Regular.931de8a973ed6a499c8c.ttf",
     "static/media/tune_me_in_sample.png": "/static/media/tune_me_in_sample.6754a119b7a65999dbe7.png",
     "static/media/Palanquin-Light.ttf": "/static/media/Palanquin-Light.1e11f26fa3ac69e4d03c.ttf",
     "static/media/Palanquin-Thin.ttf": "/static/media/Palanquin-Thin.b675b68467ab3d51d1b9.ttf",
-    "static/media/Untitled design.png": "/static/media/Untitled design.5edb9c69c17083dc94db.png",
+    "static/media/music_notif_bot_preview.png": "/static/media/music_notif_bot_preview.5edb9c69c17083dc94db.png",
     "static/media/Margesh.otf": "/static/media/Margesh.cbf37c796ebe3803351f.otf",
     "static/media/Aventine.otf": "/static/media/Aventine.409776c4abaa99a1f160.otf",
     "static/media/InstrumentSerif-Regular.otf": "/static/media/InstrumentSerif-Regular.e82a94d3826cb8e83a26.otf",
@@ -26,12 +28,12 @@
     "static/media/github-logo.svg": "/static/media/github-logo.7be3d9853aa6acbb2950bbeb23e50945.svg",
     "static/media/linkedin-logo.svg": "/static/media/linkedin-logo.da0bd586ef4c01358d44cbd4e7269cb1.svg",
     "index.html": "/index.html",
-    "main.252f30d0.css.map": "/static/css/main.252f30d0.css.map",
-    "main.0b627d45.js.map": "/static/js/main.0b627d45.js.map",
+    "main.4350c467.css.map": "/static/css/main.4350c467.css.map",
+    "main.4182477d.js.map": "/static/js/main.4182477d.js.map",
     "787.18c92263.chunk.js.map": "/static/js/787.18c92263.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.252f30d0.css",
-    "static/js/main.0b627d45.js"
+    "static/css/main.4350c467.css",
+    "static/js/main.4182477d.js"
   ]
 }
