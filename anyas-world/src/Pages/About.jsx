@@ -1,7 +1,6 @@
 import React from 'react';
 import NavigationBar from '../Components/NavigationBar'
 import FullAboutMe from '../Components/FullAboutMe'
-import WorkExamples from '../Components/Work';
 import SocialsBar from '../Components/Socials';
 
 function About () {

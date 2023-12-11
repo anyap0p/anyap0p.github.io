@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import NavigationBar from '../Components/NavigationBar'
 import QuickAboutMe from '../Components/QuickAboutMe'
-import WorkExamples from '../Components/Work';
+import WorkExamples from '../Components/WorkExamples/WorkPreview';
 import SocialsBar from '../Components/Socials'
 
 function Welcome () {

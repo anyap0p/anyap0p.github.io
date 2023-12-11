@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    z-index: 4;
+    z-index: 15;
 }
 
 .left-nav-containeranimate{
@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    z-index: 4;
+    z-index: 1;
     transform: translateX(-500%);
     opacity: 0;
     animation: slideIn 3s ease forwards;
@@ -62,7 +62,6 @@
     font-size: 30px;
     font-size-adjust: ex-height 0.5;
     position: relative;
-    z-index: 1;
 }
 
 .head-text:hover {

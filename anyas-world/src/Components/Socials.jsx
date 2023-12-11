@@ -11,7 +11,7 @@ function SocialsBar ({animate}) {
     const linkedinIconRef = useRef(null);
 
     useEffect(() => {
-        if (animate == true) {
+        if (animate === true) {
             if (emailIconRef.current) {
                 emailIconRef.current.style.setProperty('--w', '-400deg');
             }
@@ -36,7 +36,7 @@ function SocialsBar ({animate}) {
     });
 
     return (
-        <div className={'right-social-container'}>
+        <div className='right-social-container'>
             <div className='icon-container'>
                 <a href="mailto:anyaprice@utexas.edu"  target="_blank" rel="noopener noreferrer">
                     <img ref={emailIconRef} src={email} alt="" className='social-icon'/>

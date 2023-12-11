@@ -6,12 +6,10 @@
     justify-content: center;
     align-items: center;
     height: 76vh;
-    z-index: 1;
 }
 
 .welcome-block{
-    min-width: 10vw;
-    max-width: 50rem;
+    max-width: 70%;
     min-width: 30vw;
     padding-top: 10rem;
     display: flex;
