@@ -12,21 +12,24 @@
     font-size: 3rem;
     color: #006970;
     margin: 0.25em 0rem;
-    animation-name: appear;
-    animation-fill-mode: forwards;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    position: relative;
-    top: -100vh;
-    left: -100vw;
+    opacity: 0;
+    animation: appear 2s 2s forwards, pulse 2s 4s infinite alternate-reverse;
 }
 
 @keyframes appear {
     0% {
-        transform: translate(-50vw, -50vh);
+        opacity: 0;
     }
     100% {
-        transform: translate(50vw, 50vh);
+        opacity: 1;
     }
   }
   
+@keyframes pulse {
+    0% {
+        opacity: 0.35;
+    }
+    100% {
+        opacity: 1;
+    }
+  }

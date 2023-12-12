@@ -47,6 +47,7 @@
     font-size: 5rem;
     height:2.5rem;
     margin: 2%;
+    padding-bottom: 4px;
     display: none;
     transform-origin: center center;
     animation: spin 2s linear infinite;
@@ -62,6 +63,8 @@
     right: -30%;
     background-color: beige;
     border-radius: 50%;
+    max-width: 80%;
+    min-width: 60%;
     aspect-ratio: 10 / 4;
     justify-content: center; 
     text-align: center;
@@ -182,7 +185,6 @@
     object-fit: cover;
     border-radius: 15px;
     margin: 5%;
-    height: 90%;
     aspect-ratio: inherit;
     z-index: 9999;
 }
@@ -207,6 +209,18 @@
 
 .see-more-asterisk:hover + .popup {
     display: flex;
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .zoomed-image {
+        width: 90%;
+    }
+}
+
+@media (min-aspect-ratio: 1/1) {
+    .zoomed-image {
+        height: 90%;
+    }
 }
 
 @keyframes spin {

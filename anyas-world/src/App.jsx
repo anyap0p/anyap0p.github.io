@@ -14,6 +14,7 @@ class App extends Component{
         <React.Suspense fallback={<Loading />}>
           <HashRouter>
             <Routes>
+              <Route path="/loading_test" element={<Loading />} />
               <Route path="/" element={<Welcome />} />
               <Route path="/home" element={<Welcome />} />
               <Route path="/welcome" element={<Welcome />} />
